@@ -1,0 +1,20 @@
+{
+    "name": "leandrogrando/notification-center",
+    "description": "Um pacote para implementar uma central de notificaçoes",
+    "type": "library",
+    "authors": [
+        {
+            "name": "leandrogrando",
+            "email": "leandro-grando@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LeandroGrando\\NotificationCenter\\NotificationCenterProvider"
+            ]
+        }
+    }
+}
